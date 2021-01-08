@@ -1,6 +1,17 @@
 
+body {
+    text-align: center;
+    align-content: center;
+    width: 90%;
+    margin: auto;
 
 
+}
+.main{
+    align-content: center;
+    width: 90%;
+    margin: auto;
+}
 p {
     font-family: serif;
     color: #4c3b0f;
@@ -17,4 +28,28 @@ a {
 }
 a:active {
     color: #d9bd24;
+}
+a:visited {
+    color: #d9b765;
+}
+
+.table {
+    align-content: center;
+
+}
+
+blockquote{
+    width: 45%;
+    text-align: center;
+    margin: auto ;
+    font-size: 160%;
+    background-color: #f5f5f5;
+    border-style: 3px;
+    border-style: dashed;
+}
+q {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    font-size: 160%;
 }
