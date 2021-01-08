@@ -1,14 +1,20 @@
 
 body {
+
+    background-image:
     text-align: center;
     align-content: center;
     width: 90%;
     margin: auto;
 
-
 }
-.main{
+
+
+.main-box{
+
+
     align-content: center;
+    text-align: center;
     width: 90%;
     margin: auto;
 }
@@ -33,23 +39,41 @@ a:visited {
     color: #d9b765;
 }
 
-.table {
-    align-content: center;
+.table-box {
 
+    align-content: center;
+    text-align: center;
 }
 
 blockquote{
+    background-color: #efefef;
+    text-shadow: #4c3b0f;
     width: 45%;
     text-align: center;
     margin: auto ;
     font-size: 160%;
-    background-color: #f5f5f5;
-    border-style: 3px;
-    border-style: dashed;
+    border-left-style: dashed;
+    border-width: 3px;
+    border-spacing: 30px;
 }
+
 q {
     width: 45%;
     text-align: center;
     margin: auto;
     font-size: 160%;
+    border-spacing: 30px;
+    border-width: 3px;
+    border-left-style: solid;
+    text-space: 80px;
+    text-shadow: #474c4a;
 }
+
+.text-box {
+    text-align: center;
+    width: 90%;
+    align-content: center;
+    margin: auto;
+
+}
+
