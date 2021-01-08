@@ -1,0 +1,20 @@
+
+
+
+p {
+    font-family: serif;
+    color: #4c3b0f;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+
+
+a:hover {
+    color: #7e985b;
+}
+a {
+    color: #096900;
+}
+a:active {
+    color: #d9bd24;
+}
