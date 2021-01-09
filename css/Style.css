@@ -1,29 +1,69 @@
 
 body {
+    background-image: url("../img/wp4392286.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 
-    background-image:
-    text-align: center;
-    align-content: center;
-    width: 90%;
-    margin: auto;
+    background-color: #010101;
+
 
 }
-
 
 .main-box{
 
-
     align-content: center;
     text-align: center;
-    width: 90%;
+    max-width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 25px;
+
+
+
+}
+figure {
+    background-color: #8fa2a6;
+    width: 20%;
     margin: auto;
 }
-p {
-    font-family: serif;
-    color: #4c3b0f;
-    word-spacing: 5px;
-    font-size: 16px;
+
+.photo {
+    float: right;
+
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 600px;
+    height: 400px;
 }
+
+
+
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #efefef;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #efefef;
+    text-align: center;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #efefef;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #efefef;
+    text-align: center;
+}
+
 
 
 a:hover {
@@ -31,26 +71,60 @@ a:hover {
 }
 a {
     color: #096900;
+
 }
 a:active {
+
     color: #d9bd24;
 }
 a:visited {
+
     color: #d9b765;
 }
+ footer {
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
+     color: #efefef;
+ }
 
-.table-box {
 
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
     align-content: center;
-    text-align: center;
+    alignment: center;
+    table-layout: fixed;
 }
-
-blockquote{
-    background-color: #efefef;
-    text-shadow: #4c3b0f;
-    width: 45%;
+table, td, th {
+    border: 1px solid black;
+}
+.two {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin: auto ;
+    color: #ffffff;
+    word-spacing: 5px;
+    font-size: 16px;
+    margin: auto;
+    font-style: normal;
+}
+.three {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #010101;
+
+}
+blockquote{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #95a8ac;
+    width:95%;
+    font-style: italic;
     font-size: 160%;
     border-left-style: dashed;
     border-width: 3px;
@@ -58,8 +132,8 @@ blockquote{
 }
 
 q {
-    width: 45%;
-    text-align: center;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
     margin: auto;
     font-size: 160%;
     border-spacing: 30px;
@@ -69,11 +143,6 @@ q {
     text-shadow: #474c4a;
 }
 
-.text-box {
-    text-align: center;
-    width: 90%;
-    align-content: center;
-    margin: auto;
 
-}
+
 
