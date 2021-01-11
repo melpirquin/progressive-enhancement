@@ -1,146 +1,138 @@
-
 body {
-    background-image: url("../img/wp4392286.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-
-    background-color: #010101;
-
-
-}
-
-.main-box{
-
-    align-content: center;
-    text-align: center;
-    max-width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
-    padding: 25px;
-    
-}
-figure {
-    background-color: #8fa2a6;
-    width: 20%;
-    margin: auto;
-}
-
-.photo {
-    float: right;
-
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 600px;
-    height: 400px;
-}
-
-
-
-
-
-h1 {
+    width: 90%;
+    background-color: #384e56;
+    background-image: url("../img/wp4392286 copy.jpg");
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
-    color: #efefef;
+}
+header{
+    width: 100%;
+}
+
+
+.headersection{
     text-align: center;
+    margin-left: 30%;
+    margin-right:20%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    float: right;
+    margin: 20px;
+}
+h1 {
+    color: #c4cdc1;
+    text-shadow: #858e82;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #efefef;
     text-align: center;
-}
-h3 {
     font-family: 'Open Sans', sans-serif;
-    color: #efefef;
-    text-align: center;
-    margin: auto;
 }
 
-h4 {
+h3{
+    color: #c4cdc1;
     font-family: 'Open Sans', sans-serif;
-    color: #efefef;
-    text-align: center;
+
 }
 
+p{
+    color: #c4cdc1;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
 
+a {
+    color: #f4a261;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:visited {
+    color: #ffb700;
+
+}
+
+a:active {
+    color: #9d4800;
+}
 
 a:hover {
-    color: #7e985b;
+    color: #ff7070;
+    text-transform: capitalize;
 }
-a {
-    color: #096900;
 
-}
-a:active {
-
-    color: #d9bd24;
-}
-a:visited {
-
-    color: #d9b765;
-}
- footer {
-     font-family: 'Open Sans', sans-serif;
-     text-align: center;
-     color: #efefef;
- }
-
-
-
-table {
-    font-family: 'Open Sans', sans-serif;
-    border-collapse: collapse;
-    border: 1px solid black;
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    alignment: center;
-    table-layout: fixed;
-}
-table, td, th {
-    border: 1px solid black;
-}
-.two {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    word-spacing: 5px;
-    font-size: 16px;
-    margin: auto;
-    font-style: normal;
-}
-.three {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    color: #010101;
-
-}
-blockquote{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #95a8ac;
-    width:95%;
-    font-style: italic;
-    font-size: 160%;
+.firstsection{
+    background-color: #2f575d;
+    color: #c4cdc1;
+    margin-left: 40%;
+    margin-right: 30%;
     border-left-style: dashed;
     border-width: 3px;
-    border-spacing: 30px;
+
 }
 
-q {
+.secondsection {
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+table, th, td {
+    border: solid #2f575d;
+    margin: auto;
+    table-layout: fixed;
+    color: #c4cdc1;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linksection{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+q, blockquote{
+    font-size: 160%;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
-    margin: auto;
-    font-size: 160%;
-    border-spacing: 30px;
-    border-width: 3px;
-    border-left-style: solid;
-    text-space: 80px;
-    text-shadow: #474c4a;
+}
+.bottomsection {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40%;
+    margin-right: 30%;
 }
 
+.footersection {
+    text-align: center;
+    color: #c4cdc1;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 10%
 
+}
 
+.bad {
+    color: #8e0700;
+}
 
+.good{
+    color: #096900;
+}
+
+.farmer {
+    border-left-style: solid; border-color: #f4be61;
+}
+
+.they {
+    border-left-style: solid; border-color: #f59586;
+}
